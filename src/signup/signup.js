@@ -11,7 +11,7 @@ export class Signup {
 
   // These view models will be given values
   // from the signup form user input
-  email = '';
+  username = '';
   password = '';
 
   // Any signup errors will be reported by
@@ -26,7 +26,7 @@ export class Signup {
   signup() {
 
     // Object to hold the view model values passed into the signup method
-    var userInfo = { email: this.email, password: this.password }
+    var userInfo = { username: this.username, password: this.password }
 
     return this.auth.signup(userInfo)
     .then((response) => {

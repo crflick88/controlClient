@@ -29,8 +29,9 @@ export class Login {
     return this.auth.login(this.email, this.password)
     .then(response => {
       //console.log("Login response content: " + response.content);
-      console.log("Login response token: " + response.content.id_token);
+      //console.log("Login response token: " + response.content.id_token);
       //console.log("Login response token: " + response.content.id_token.payload);
+      console.log("respuestaaaaa");
     })
     .catch(error => {
       this.loginError = error.response;

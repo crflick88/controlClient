@@ -34,7 +34,7 @@ export default class {
           //{ route: 'random-quote', name: 'random-quote', moduleId: './random-quote', nav: true, title:'Random Quote' },          
           // The secret-quote route is the only one that the user needs to be logged in to see,  so we set auth: true
           //{ route: 'secret-quote', name: 'secret-quote', moduleId: './secret-quote', nav: true, title:'Super Secret Quote', auth: true },
-          { route: 'signup', name: 'signup', moduleId: './signup/signup', nav: false, title:'Signup', authRoute: true },
+          //{ route: 'signup', name: 'signup', moduleId: './signup/signup', nav: false, title:'Signup', authRoute: false, auth:true },
           { route: 'login', name: 'login', moduleId: './login/login', nav: false, title:'Login', authRoute: true },
           { route: 'logout', name: 'logout', moduleId: './logout/logout', nav: false, title:'Logout', authRoute: true }
         ]);
